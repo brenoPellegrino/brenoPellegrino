@@ -1,6 +1,6 @@
 ## Hi, I'm Breno 👋
 
-Full-stack developer focused on **TypeScript**, **React/Next.js** and end-to-end web products, from idea to deploy. I enjoy projects that pair a polished interface with a bit of data and modeling under the hood.
+Full-stack developer focused on **TypeScript**, **React/Next.js** and end-to-end web products, from idea to deploy. On the backend I also work with **C# / .NET** and **SQL Server**, and I enjoy projects that pair a polished interface with solid data and modeling under the hood.
 
 ---
 
@@ -18,9 +18,17 @@ Turns a phone photo of a dish into an album of professional shots, with versions
 
 ---
 
+### 💳 Open-source backend
+
+**🏦 [Wallet / Store-Credit System](https://github.com/brenoPellegrino/wallet-store-credit): money paths done right**  
+A wallet and store-credit service built to show depth where it matters most: moving money safely. Append-only ledger, idempotent credits/debits/transfers, concurrency-safe debits with row locks and deadlock-free ordered locking, and transfers wrapped in a single ACID transaction. A covering index cut the balance query from 563 to 6 logical reads, measured with execution plans.  
+`C#` · `.NET 8` · `SQL Server` · raw `ADO.NET` · stored procedures · `Docker` · xUnit + CI
+
+---
+
 ### 🛠️ Stack
 
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Supabase` · `HTML` · `CSS` · `Git` · `Vercel`
+`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `C#` · `.NET` · `SQL Server` · `Supabase` · `HTML` · `CSS` · `Docker` · `Git` · `Vercel`
 
 ---
 
