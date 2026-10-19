@@ -24,11 +24,15 @@ Turns a phone photo of a dish into an album of professional shots, with versions
 A wallet and store-credit service built to show depth where it matters most: moving money safely. Append-only ledger, idempotent credits/debits/transfers, concurrency-safe debits with row locks and deadlock-free ordered locking, and transfers wrapped in a single ACID transaction. A covering index cut the balance query from 563 to 6 logical reads, measured with execution plans.  
 `C#` · `.NET 8` · `SQL Server` · raw `ADO.NET` · stored procedures · `Docker` · xUnit + CI
 
+**🐺 [Wolverine / CQRS POC](https://github.com/brenoPellegrino/dotnet-wolverine-poc): event-driven .NET with a transactional outbox**  
+A .NET API using Wolverine for CQRS and messaging. Commands and queries flow through a message bus, domain events are published and handled, and a transactional outbox over EF Core and PostgreSQL saves each message in the same transaction as the data change and dispatches it after commit, so nothing is lost on failure. Vertical-slice clean architecture, FluentValidation, and integration tests against a real PostgreSQL via Testcontainers.  
+`C#` · `.NET` · `Wolverine` · CQRS · transactional outbox · `EF Core` · `PostgreSQL` · Testcontainers · `Docker`
+
 ---
 
 ### 🛠️ Stack
 
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `C#` · `.NET` · `SQL Server` · `Supabase` · `HTML` · `CSS` · `Docker` · `Git` · `Vercel`
+`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `C#` · `.NET` · `Wolverine` · `SQL Server` · `PostgreSQL` · `Supabase` · `HTML` · `CSS` · `Docker` · `Git` · `Vercel`
 
 ---
 
